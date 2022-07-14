@@ -1,0 +1,29 @@
+.intro {
+    background: url(../img/intro-bg.png)no-repeat center/cover;
+    height: 100vh;
+    min-height: 700px;
+    position: relative;
+
+    &__inner {
+        max-width: 495px;
+        padding: 218px 0 227px 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    // &__subtitle {}
+
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+        color: #FFFFFF;
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        font-size: 17px;
+        line-height: 25px;
+        color: #CACCD1;
+    }
+}

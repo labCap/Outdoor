@@ -1,0 +1,49 @@
+.shop {
+    background: url(../img/shop-bg.png)no-repeat center/cover #375C58;
+
+    &__inner {
+        text-align: center;
+        color: #FAFAFC;
+        max-width: 540px;
+        margin: 0 auto;
+    }
+
+    &__subtitle {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 43px;
+        color: #E6B939;
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        font-size: 15px;
+        line-height: 22px;
+        color: $brown;
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 11px 18px;
+        transition: $transition;
+
+        &:hover {
+            background: $brown-active;
+            color: #fff;
+        }
+
+        &:active {
+            background: $brown-hover;
+        }
+    }
+}

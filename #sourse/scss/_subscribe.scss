@@ -1,0 +1,36 @@
+.subscribe {
+    background: url(../img/subscribe-bg.png)no-repeat left;
+
+    &__inner {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        max-width: 400px;
+    }
+
+    // &__subtitle {}
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__descr {
+        margin-bottom: 20px;
+    }
+
+    // &__btn {}
+
+    &__img {
+        max-width: 576px;
+        height: auto;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
