@@ -33,12 +33,12 @@
     }
 
     &__box {
-        max-width: 220px;
+        width: 170px;
         margin: 20px 0;
     }
 
     &__box:nth-child(4) {
-        max-width: 457px;
+        width: 457px;
     }
 
     &__title {
@@ -86,9 +86,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
-    &__copyright {}
+    &__copyright {
+        margin-bottom: 10px;
+    }
 }
 
 .form {

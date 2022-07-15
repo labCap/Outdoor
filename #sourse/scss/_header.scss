@@ -81,3 +81,30 @@
         }
     }
 }
+
+.burger {
+    width: 30px;
+    display: none;
+}
+
+.burger__item {
+    height: 3px;
+    width: 100%;
+    margin: 5px 0;
+    background: $brown;
+}
+
+
+@media (max-width:768px) {
+    .nav {
+        display: none;
+    }
+
+    .header__btn-box {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}

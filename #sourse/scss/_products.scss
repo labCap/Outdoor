@@ -28,6 +28,10 @@
         padding: 60px 45px;
         text-align: center;
         color: $brown;
+
+        @media (max-width:375px) {
+            padding: 30px 20px;
+        }
     }
 
     &__item-img {

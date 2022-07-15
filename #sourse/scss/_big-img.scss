@@ -13,11 +13,12 @@
         border-radius: 16px;
         display: inline-flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     &__link {
         color: #fff;
-        margin: 0 10px;
+        margin: 10px;
         transition: $transition;
 
         i {
